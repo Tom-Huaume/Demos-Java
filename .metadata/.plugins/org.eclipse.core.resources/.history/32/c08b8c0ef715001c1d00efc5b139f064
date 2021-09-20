@@ -1,0 +1,53 @@
+package fr.eni.jpa.main;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import fr.eni.jpa.entity.Personne;
+import fr.eni.jpa.entity.User;
+
+public class TestUser {
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) {
+		
+		System.out.println("test");
+		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("Mysql_UP");
+		EntityManager em = emf.createEntityManager();
+		
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.DATE, 1);
+		//SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
+		System.out.println(cal.getTime());
+		
+		User u1 = new User(1, "java", "avance");
+		Personne p1 = new Personne("Thomas", "Huaume", cal, 15);
+		
+		em.getTransaction().begin();
+		try {
+			em.persist(u1);
+			em.getTransaction().commit();
+		}catch(Exception e) {
+			e.printStackTrace();
+			em.getTransaction().rollback();
+		}
+		
+		String requete = "from User u";
+		List<User> listeU = em.createQuery(requete).getResultList();
+		
+		System.out.println("Liste des user :");
+		for(User user : listeU) {
+			System.out.println(user);
+		}
+		em.close();
+		emf.close();
+
+	}
+
+}

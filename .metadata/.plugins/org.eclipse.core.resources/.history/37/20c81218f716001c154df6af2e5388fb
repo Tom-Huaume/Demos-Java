@@ -1,0 +1,16 @@
+package fr.eni.jpa.main;
+
+import fr.eni.jpa.entity.single.Berline;
+import fr.eni.jpa.entity.single.Voiture;
+
+public class MainSingle {
+
+	public static void main(String[] args) {
+
+
+		Voiture v1 = new Voiture("Renault Clio");
+		Berline b1 = new Berline("BMW", "Rouge");
+
+	}
+
+}

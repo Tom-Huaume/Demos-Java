@@ -1,0 +1,5 @@
+package fr.eni.jpa.entity.single;
+
+public class Voiture {
+
+}

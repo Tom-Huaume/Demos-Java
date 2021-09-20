@@ -1,0 +1,16 @@
+package fr.eni.jpa.dao;
+
+import java.util.List;
+
+import javax.persistence.TypedQuery;
+
+import fr.eni.jpa.entity.Personne;
+
+public class CiviliteDAO {
+	
+	public static List<Personne> findTous(){
+		TypedQuery<Personne> query = DAOUtil.getEntityManager().createNamedQuery("findTous", Personne.class);
+		return query.getResultList();
+	}
+	
+}
