@@ -44,8 +44,14 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="fr.eni.jpa.dao.DAOUtil"/>
     <fullyQualifiedTypeName name="fr.eni.jpa.entity.Personne"/>
     <fullyQualifiedTypeName name="fr.eni.jpa.entity.Civilite"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="fr.eni.spring.Instrument"/>
+    <fullyQualifiedTypeName name="fr.eni.spring.Musicien"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>
