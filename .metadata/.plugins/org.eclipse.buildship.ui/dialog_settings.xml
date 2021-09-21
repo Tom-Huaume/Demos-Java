@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="org.eclipse.buildship.ui.wizard.project.creation">
 		<item key="use_default_location" value="true"/>
-		<item key="project_location" value="C:\workspace_JEE\InjectionParSetter"/>
+		<item key="project_location" value="C:\workspace_JEE\ProjetSpringWeb"/>
 		<item key="custom_location" value="Z:\ENI\Spring"/>
 		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(C:\gradle\gradle-4.5))"/>
 		<item key="java_home" value="C:\Program Files\Java\jdk1.8.0_291"/>

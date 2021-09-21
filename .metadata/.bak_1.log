@@ -1,4 +1,4 @@
-!SESSION 2021-09-15 05:08:51.734 -----------------------------------------------
+!SESSION 2021-09-21 09:01:49.264 -----------------------------------------------
 eclipse.buildId=4.20.0.I20210611-1600
 java.version=16.0.1
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file C:\workspace_JEE\.metadata\.bak_0.log
-Created Time: 2021-09-15 08:29:56.339
+Created Time: 2021-09-21 14:50:39.896
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:56.339
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:39.896
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -1038,7 +1038,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:56.352
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:40.402
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -2067,7 +2067,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:56.858
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:40.414
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -3096,7 +3096,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:56.870
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:40.925
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -4125,7 +4125,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:57.380
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:40.935
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -5154,7 +5154,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:57.391
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:41.446
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -6183,7 +6183,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:57.896
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:41.455
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -7212,7 +7212,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:57.907
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:41.964
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
@@ -8241,7 +8241,7 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:173)
 	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.nodesReplaced(AbstractStructuredModel.java:153)
 
-!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-15 08:29:58.413
+!ENTRY org.eclipse.wst.sse.core 4 4 2021-09-21 14:50:41.973
 !MESSAGE assertion failed: 
 !STACK 0
 org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
